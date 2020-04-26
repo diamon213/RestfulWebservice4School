@@ -1,0 +1,282 @@
+{
+	"id": "22020e88-b0af-4d1b-a5bb-07ac12a0e17f",
+	"name": "Restful Webservice",
+	"timestamp": "2020-04-26T16:32:08.903Z",
+	"collection_id": "dfc9381f-189e-4914-8b78-8afb58e57d88",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0b47aba2-6cbd-4aa0-b15c-bcabe68ef528",
+			"name": "1.0 Login als Admin",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/user/login",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				48
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2d802965-da8d-424c-9dac-52148cc4ff2d",
+			"name": "1.1 Login als User",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/user/login",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "80250246-3f09-4e4b-8a68-2ef31cabb070",
+			"name": "1.2 Logout",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/user/logout",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e0336ab7-4e36-4ad8-9016-f378e6c7c69e",
+			"name": "2.0 Notizliste lesen",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/notiz/list",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "13c1a769-b270-4787-b3cc-cd3df4ccca33",
+			"name": "2.1 Notiz lesen",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/notiz/read?uuid=3247c340-c712-402e-b400-0a23a9368c97",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cb165791-9f33-4483-ac57-0b069bbad938",
+			"name": "2.2 Notiz erstellen",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/notiz/create",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e22382b5-3f92-470e-ad9f-aef01de585c1",
+			"name": "2.3 Notiz updaten",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/notiz/update",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3dc8f7c5-f094-44db-b729-a0f66f128756",
+			"name": "2.4 Notiz löschen",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/notiz/delete?uuid=9a97b4b1-5a15-48a4-9b0a-0cba91d56c01",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bcf2d97b-bede-4815-9b3f-1b16abf5ec4e",
+			"name": "3.0 Authorenliste lesen",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/author/list",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c89cf34c-9cde-45a2-b936-5aa3877b2f7c",
+			"name": "3.1 Author lesen",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/author/read?uuid=ecd86148-5341-43c6-81ed-f3f4595965dc",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				19
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "231674a7-55ec-4e52-b65f-7aa1851ff958",
+			"name": "3.2 Author erstellen",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/author/create",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9a35c4c1-51fd-468a-b719-a90da6d99b57",
+			"name": "3.3 Author updaten",
+			"url": "localhost:8080/javaKeep_war_exploded/resource/author/update",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 124,
+	"collection": {
+		"requests": [
+			{
+				"id": "0b47aba2-6cbd-4aa0-b15c-bcabe68ef528",
+				"method": "POST"
+			},
+			{
+				"id": "2d802965-da8d-424c-9dac-52148cc4ff2d",
+				"method": "POST"
+			},
+			{
+				"id": "80250246-3f09-4e4b-8a68-2ef31cabb070",
+				"method": "DELETE"
+			},
+			{
+				"id": "e0336ab7-4e36-4ad8-9016-f378e6c7c69e",
+				"method": "GET"
+			},
+			{
+				"id": "13c1a769-b270-4787-b3cc-cd3df4ccca33",
+				"method": "GET"
+			},
+			{
+				"id": "cb165791-9f33-4483-ac57-0b069bbad938",
+				"method": "POST"
+			},
+			{
+				"id": "e22382b5-3f92-470e-ad9f-aef01de585c1",
+				"method": "PUT"
+			},
+			{
+				"id": "3dc8f7c5-f094-44db-b729-a0f66f128756",
+				"method": "DELETE"
+			},
+			{
+				"id": "bcf2d97b-bede-4815-9b3f-1b16abf5ec4e",
+				"method": "GET"
+			},
+			{
+				"id": "c89cf34c-9cde-45a2-b936-5aa3877b2f7c",
+				"method": "GET"
+			},
+			{
+				"id": "231674a7-55ec-4e52-b65f-7aa1851ff958",
+				"method": "POST"
+			},
+			{
+				"id": "9a35c4c1-51fd-468a-b719-a90da6d99b57",
+				"method": "PUT"
+			}
+		]
+	}
+}
